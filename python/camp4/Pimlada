@@ -1,0 +1,15 @@
+studentScore = 65
+studentName = "Pim"
+
+
+if studentScore >= 80 :
+    print("Student ", studentName, "grade = A")
+elif studentScore >= 70:
+    print("Student ", studentName, "grade = B")
+elif studentScore >= 60:
+    print("Student ", studentName, "grade = C")
+elif studentScore >= 50:
+    print("Student ", studentName, "grade = D")
+elif  studentScore < 50:
+    print("Student ", studentName, "grade = F")
+
